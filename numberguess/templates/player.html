@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NUMBERGUESSING GAME</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+<div class="container">
+    <h2>WELCOME TO NUMBER GUESSING GAME </h2>
+    <h4> PLAYER DETAILS</h4>
+    <form action="/", method="POST">
+        <label for="player_name">ENTER PLAYER NAME</label>
+        <input type="text" name="player_name" placeholder="name" required>
+        <button type="submit">LETS START</button>
+    </form>
+    <h5>LETS START THE GAME</h5>
+
+</div>
+
+</body>
+</html>
+
